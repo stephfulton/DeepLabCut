@@ -14,3 +14,5 @@ dependencies:
   - pytables==3.4.3 #problem with 3.4.4
   - pip:
     - deeplabcut
+conda env create -f dlc-windowsCPU.yaml
+pip install deeplabcut
